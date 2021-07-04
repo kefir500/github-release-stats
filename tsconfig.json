@@ -1,0 +1,17 @@
+{
+  "files": [
+    "src/bin/ghstats-cli.ts",
+    "src/lib/ghstats.ts"
+  ],
+  "compilerOptions": {
+    "target": "ES5",
+    "declaration": true,
+    "outDir": ".",
+    "strict": true,
+    "esModuleInterop": true,
+    "lib": [
+      "ES2019",
+      "DOM"
+    ]
+  }
+}

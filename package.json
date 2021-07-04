@@ -1,0 +1,45 @@
+{
+  "name": "github-release-stats",
+  "version": "1.0.0",
+  "description": "Library for fetching the GitHub release download count and other statistics",
+  "homepage": "https://github.com/kefir500/github-release-stats#readme",
+  "bugs": "https://github.com/kefir500/github-release-stats/issues",
+  "author": "Alexander Gorishnyak",
+  "license": "MIT",
+  "main": "lib/ghstats.js",
+  "browser": {
+    "node-fetch": "./src/lib/fetch.js"
+  },
+  "scripts": {
+    "start": "node bin/ghstats-cli.js",
+    "build": "tsc",
+    "watch": "tsc -w",
+    "prepublishOnly": "npm run build"
+  },
+  "bin": {
+    "ghstats": "bin/ghstats-cli.js"
+  },
+  "files": [
+    "bin/ghstats-cli.js",
+    "lib/ghstats.d.ts",
+    "lib/ghstats.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kefir500/github-release.stats.git"
+  },
+  "keywords": [
+    "github",
+    "release",
+    "download",
+    "statistics"
+  ],
+  "devDependencies": {
+    "@types/node": "^15.12.5",
+    "@types/node-fetch": "^2.5.10",
+    "typescript": "^4.3.4"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  }
+}
