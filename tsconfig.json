@@ -1,13 +1,15 @@
 {
   "files": [
     "src/bin/ghstats-cli.ts",
-    "src/lib/ghstats.ts"
+    "src/lib/ghstats.ts",
+    "src/lib/fetch.js"
   ],
   "compilerOptions": {
     "target": "ES5",
     "declaration": true,
     "outDir": ".",
     "strict": true,
+    "allowJs": true,
     "esModuleInterop": true,
     "lib": [
       "ES2019",

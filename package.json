@@ -8,7 +8,7 @@
   "license": "MIT",
   "main": "lib/ghstats.js",
   "browser": {
-    "node-fetch": "./src/lib/fetch.js"
+    "node-fetch": "./lib/fetch.js"
   },
   "scripts": {
     "start": "node bin/ghstats-cli.js",
@@ -22,7 +22,8 @@
   "files": [
     "bin/ghstats-cli.js",
     "lib/ghstats.d.ts",
-    "lib/ghstats.js"
+    "lib/ghstats.js",
+    "lib/fetch.js"
   ],
   "repository": {
     "type": "git",
