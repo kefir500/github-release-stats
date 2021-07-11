@@ -54,9 +54,10 @@ export class GithubStats {
     this.repoOwner = repoOwner;
     this.repoName = repoName;
     if (typeof self === 'undefined') {
-      this.token = process.env.GITHUB_TOKEN || '';
+      this.token = token || process.env.GITHUB_TOKEN || '';
+    } else {
+      this.token = token;
     }
-    this.token = token;
   }
 
   /**
