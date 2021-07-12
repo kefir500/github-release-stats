@@ -14,6 +14,7 @@
     "start": "node bin/ghstats-cli.js",
     "build": "tsc",
     "watch": "tsc -w",
+    "test": "jest",
     "prepublishOnly": "npm run build"
   },
   "bin": {
@@ -36,8 +37,12 @@
     "statistics"
   ],
   "devDependencies": {
+    "@types/jest": "^26.0.24",
     "@types/node": "^15.12.5",
     "@types/node-fetch": "^2.5.10",
+    "jest": "^27.0.6",
+    "jest-fetch-mock": "^3.0.3",
+    "ts-jest": "^27.0.3",
     "typescript": "^4.3.4"
   },
   "dependencies": {
