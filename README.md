@@ -2,8 +2,8 @@
 
 ## Description
 
-**GitHub Release Stats** is a JavaScript library for fetching
-the GitHub release download count and other statistics.
+**GitHub Release Stats** is a JavaScript library written in TypeScript
+for fetching the GitHub release download count and other statistics.
 
 It can be used in several ways:
 
