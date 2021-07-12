@@ -56,6 +56,7 @@ export class GithubStats {
     if (typeof self === 'undefined') {
       this.token = token || process.env.GITHUB_TOKEN || '';
     } else {
+      /* istanbul ignore next */
       this.token = token;
     }
   }
