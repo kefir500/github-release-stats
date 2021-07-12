@@ -1,5 +1,9 @@
 # GitHub Release Stats
 
+[![Build and test](https://github.com/kefir500/github-release-stats/actions/workflows/build-and-test.yml/badge.svg)](https://github.com/kefir500/github-release-stats/actions/workflows/build-and-test.yml)
+[![NPM](https://img.shields.io/npm/v/github-release-stats)](https://www.npmjs.com/package/github-release-stats)
+[![License](https://img.shields.io/github/license/kefir500/github-release-stats)](https://github.com/kefir500/github-release-stats/blob/master/LICENSE)
+
 ## Description
 
 **GitHub Release Stats** is a JavaScript library written in TypeScript
