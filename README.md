@@ -1,6 +1,7 @@
 # GitHub Release Stats
 
 [![Build and test](https://github.com/kefir500/github-release-stats/actions/workflows/build-and-test.yml/badge.svg)](https://github.com/kefir500/github-release-stats/actions/workflows/build-and-test.yml)
+[![Codecov](https://codecov.io/gh/kefir500/github-release-stats/branch/master/graph/badge.svg)](https://codecov.io/gh/kefir500/github-release-stats)
 [![NPM](https://img.shields.io/npm/v/github-release-stats)](https://www.npmjs.com/package/github-release-stats)
 [![License](https://img.shields.io/github/license/kefir500/github-release-stats)](https://github.com/kefir500/github-release-stats/blob/master/LICENSE)
 
